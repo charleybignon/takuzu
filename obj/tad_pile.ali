@@ -1,0 +1,49 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_EXCEPTIONS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U tad_pile%b		tad_pile.adb		351d88b6 NE OO PK GE IL
+
+U tad_pile%s		tad_pile.ads		2249be8c BN EE NE OO PK GE IL
+
+D system.ads		20210520051136 2ffa5114 system%s
+D tad_pile.ads		20230117155458 2249be8c tad_pile%s
+D tad_pile.adb		20230117155144 1754363a tad_pile%b
+G a e
+G c Z s b [tad_pile standard 5 9 none]
+X 2 tad_pile.ads
+3+9 T 23r50 29r55 34r51 43r47 3|27r50 39r55 54r50
+5k9*TAD_Pile 3z9 43E9 50l5 50e13 3|2b14 81l5 81t13
+7N4*TAILLE_MAX 43r32 3|57r30
+8R9*Type_Pile 15r35 18r32 23r32 29r37 34r32 34r61 39r32 39r50 45c9 48e14
+. 3|8r35 9r11 18r32 27r32 39r37 54r32 54r60 55r11 70r32 70r50 71r11
+10X4*PILE_VIDE 3|30r16 42r16 74r16
+11X4*PILE_PLEINE 3|58r16
+12X4*INDICE_INVALIDE 3|45r16
+15V13*construirePile{8R9} 3|8b13 12l8 12t22
+18V13*estVide{boolean} 18>22 3|18b13 21l8 21t15
+18r22 pile{8R9} 3|18b22 20r14
+23V13*dernier{3+9} 23>22 3|27b13 33l8 33t15
+23r22 pile{8R9} 3|27b22 29r10 32r14 32r29
+29V13*avantDernier{3+9} 29>27 3|39b13 48l8 48t20
+29r27 pile{8R9} 3|39b27 41r10 44r10 47r14 47r29
+34V13*empiler{8R9} 34>22 34>44 3|54b13 64l8 64t15
+34r22 pile{8R9} 3|54b22 57r10 60r12
+34*44 e{3+9} 3|54b43 62r38
+39V13*depiler{8R9} 39>22 3|70b13 79l8 79t15
+39r22 pile{8R9} 3|70b22 73r10 76r12
+43A9 Tableau(3+9)<integer> 46r27
+46a7 elements{43A9} 3|32r19 47r19 62m9
+47i7 nb_elements{integer} 3|20r19 29r15 32r34 41r15 44r15 47r34 57r15 61m9
+. 61r26 62r21 73r15 77m9 77r26
+X 3 tad_pile.adb
+9r7 P{2|8R9} 11r14
+55r7 P{2|8R9} 60m7 61m7 61r24 62m7 62r19 63r14
+71r7 P{2|8R9} 76m7 77m7 77r24 78r14
+

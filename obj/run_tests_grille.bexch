@@ -1,0 +1,25 @@
+[GENERATED OBJECT FILE]
+b__run_tests_grille.o
+[PROJECT FILES]
+C:\Users\arthu\BUT_info\SAE\Takuzu_V2\takuzu.gpr
+20230104131128 ee6a5fa205a3e158413e5a4f8e139a1d
+[BOUND OBJECT FILES]
+C:\Users\arthu\BUT_info\SAE\Takuzu_V2\obj\chiffre.o
+C:\Users\arthu\BUT_info\SAE\Takuzu_V2\obj\coordonnee.o
+C:\Users\arthu\BUT_info\SAE\Takuzu_V2\obj\rangee.o
+C:\Users\arthu\BUT_info\SAE\Takuzu_V2\obj\grille.o
+C:\Users\arthu\BUT_info\SAE\Takuzu_V2\obj\affichage.o
+C:\Users\arthu\BUT_info\SAE\Takuzu_V2\obj\a_tester_Grille.o
+C:\Users\arthu\BUT_info\SAE\Takuzu_V2\obj\run_tests_Grille.o
+[GENERATED SOURCE FILES]
+b__run_tests_grille.ads
+b__run_tests_grille.adb
+b__run_tests_grille.ali
+[RESULTING OPTIONS]
+-LC:\Users\arthu\BUT_info\SAE\Takuzu_V2\obj\
+-LC:\Users\arthu\BUT_info\SAE\Takuzu_V2\obj\
+-LC:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000

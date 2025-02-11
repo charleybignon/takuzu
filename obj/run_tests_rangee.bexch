@@ -1,0 +1,23 @@
+[GENERATED OBJECT FILE]
+b__run_tests_rangee.o
+[PROJECT FILES]
+C:\Users\arthu\BUT_info\SAE\Takuzu_V3\takuzu.gpr
+20230104131128 e789e76a18cdd5adc64972a61c328de3
+[BOUND OBJECT FILES]
+C:\Users\arthu\BUT_info\SAE\Takuzu_V3\obj\chiffre.o
+C:\Users\arthu\BUT_info\SAE\Takuzu_V3\obj\rangee.o
+C:\Users\arthu\BUT_info\SAE\Takuzu_V3\obj\types_tests.o
+C:\Users\arthu\BUT_info\SAE\Takuzu_V3\obj\a_tester_Rangee.o
+C:\Users\arthu\BUT_info\SAE\Takuzu_V3\obj\run_tests_rangee.o
+[GENERATED SOURCE FILES]
+b__run_tests_rangee.ads
+b__run_tests_rangee.adb
+b__run_tests_rangee.ali
+[RESULTING OPTIONS]
+-LC:\Users\arthu\BUT_info\SAE\Takuzu_V3\obj\
+-LC:\Users\arthu\BUT_info\SAE\Takuzu_V3\obj\
+-LC:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000

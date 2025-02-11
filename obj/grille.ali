@@ -1,0 +1,140 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTIONS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+
+U grille%b		grille.adb		1f3ec113 NE OO PK
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W rangee%s		rangee.adb		rangee.ali
+
+U grille%s		grille.ads		dd1951a9 EE OO PK
+W chiffre%s		chiffre.adb		chiffre.ali
+W coordonnee%s		coordonnee.adb		coordonnee.ali
+W rangee%s		rangee.adb		rangee.ali
+Z system%s		system.ads		system.ali
+Z system.exception_table%s  s-exctab.adb	s-exctab.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+
+D ada.ads		20210520051132 76789da1 ada%s
+D a-except.ads		20210520051128 946f3014 ada.exceptions%s
+D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
+D chiffre.ads		20230104131128 37e88090 chiffre%s
+D coordonnee.ads	20230117073642 002d049f coordonnee%s
+D grille.ads		20230104150552 c9384163 grille%s
+D grille.adb		20230104150748 f5e214b5 grille%b
+D rangee.ads		20230117082224 23e494c5 rangee%s
+D system.ads		20210520051136 2ffa5114 system%s
+D s-exctab.ads		20210520051132 54135002 system.exception_table%s
+D s-parame.ads		20210520051134 4752c4cb system.parameters%s
+D s-stalib.ads		20210520051134 472fbca8 system.standard_library%s
+D s-traent.ads		20210520051134 26a8d361 system.traceback_entries%s
+G a e
+G c Z s b [construiregrille grille 17 13 none]
+G c Z s b [taille grille 20 13 none]
+G c Z s b [estcasevide grille 24 13 none]
+G c Z s b [obtenirchiffre grille 30 13 none]
+G c Z s b [nombrechiffresconnus grille 34 13 none]
+G c Z s b [estremplie grille 37 13 none]
+G c Z s b [extraireligne grille 40 13 none]
+G c Z s b [extrairecolonne grille 44 13 none]
+G c Z s b [fixerchiffre grille 51 13 none]
+G c Z s b [vidercase grille 59 13 none]
+G c Z s s [Ttype_tableau_grilleBIP grille 64 4 none]
+G c Z s s [type_grilleIP grille 66 9 none]
+G r c none [estcasevide grille 24 13 none] [obtenirligne coordonnee 10 13 none]
+G r c none [estcasevide grille 24 13 none] [obtenircolonne coordonnee 13 13 none]
+G r c none [estcasevide grille 24 13 none] [Oeq chiffre 28 13 none]
+G r c none [obtenirchiffre grille 30 13 none] [obtenirligne coordonnee 10 13 none]
+G r c none [obtenirchiffre grille 30 13 none] [obtenircolonne coordonnee 13 13 none]
+G r c none [obtenirchiffre grille 30 13 none] [Oeq chiffre 28 13 none]
+G r c none [nombrechiffresconnus grille 34 13 none] [Oeq chiffre 28 13 none]
+G r c none [estremplie grille 37 13 none] [Oeq chiffre 28 13 none]
+G r c none [extraireligne grille 40 13 none] [construirerangee rangee 12 13 none]
+G r c none [extraireligne grille 40 13 none] [ajouterchiffre rangee 65 13 none]
+G r c none [extrairecolonne grille 44 13 none] [construirerangee rangee 12 13 none]
+G r c none [extrairecolonne grille 44 13 none] [ajouterchiffre rangee 65 13 none]
+G r c none [fixerchiffre grille 51 13 none] [obtenirligne coordonnee 10 13 none]
+G r c none [fixerchiffre grille 51 13 none] [obtenircolonne coordonnee 13 13 none]
+G r c none [fixerchiffre grille 51 13 none] [Oeq chiffre 28 13 none]
+G r c none [vidercase grille 59 13 none] [obtenirligne coordonnee 10 13 none]
+G r c none [vidercase grille 59 13 none] [obtenircolonne coordonnee 13 13 none]
+G r c none [vidercase grille 59 13 none] [Oeq chiffre 28 13 none]
+X 4 chiffre.ads
+1K9*Chiffre 35e12 6|2w6 2r22
+3I9*Type_Chiffre<short_short_integer> 6|31r58 52r58 65r50 7|53r58 125r58
+14i4*INCONNU{3I9} 7|18r26 42r55 71r28 130r55 147r54 151r59
+28V14*"="{boolean} 7|42s53 71s25 130s52 147s52
+X 5 coordonnee.ads
+1K9*Coordonnee 33e15 6|1w6 1r22
+3R9*Type_Coordonnee 31e14 6|25r34 31r34 52r34 60r34 7|39r34 53r34 125r34
+. 143r34
+10V13*ObtenirLigne{integer} 7|42s16 59s20 130s15 134s19 147s15 151s19
+13V13*ObtenirColonne{integer} 7|42s33 59s37 130s32 134s36 147s32 151s36
+X 6 grille.ads
+5K9*Grille 63E4 71l5 71e11 7|4b14 155l5 155t11
+7R9*Type_Grille 17r51 20r28 25r14 31r14 34r42 37r32 41r14 45r14 52r14 53r14
+. 60r14 60r58 66c9 69e14 7|10r51 11r11 29r28 39r14 53r14 66r42 83r32 93r14
+. 109r14 125r14 126r14 128r18 143r14 143r58 145r18
+9X4*TAILLE_GRILLE_INVALIDE 7|14r16
+10X4*CASE_VIDE 7|57r16
+11X4*VIDER_CASE_VIDE 7|148r16
+12X4*FIXER_CHIFFRE_NON_NUL 7|131r16
+17V13*ConstruireGrille{7R9} 17>31 7|10b13 23l8 23t24
+17i31 T{integer} 7|10b31 13r10 13r17 13r35 16r19 17r22 21r19
+20V13*Taille{integer} 20>21 7|29b13 32l8 32t14
+20r21 G{7R9} 7|29b21 31r14
+24V13*estCaseVide{boolean} 25>7 25>27 7|38b13 46l8 46t19 56s10
+25r7 G{7R9} 7|39b7 42r10
+25r27 C{5|3R9} 7|39b27 42r29 42r48
+30V13*ObtenirChiffre{4|3I9} 31>7 31>27 7|52b13 60l8 60t22
+31r7 G{7R9} 7|53b7 56r23 59r14
+31r27 C{5|3R9} 7|53b27 56r26 59r33 59r52
+34V13*NombreChiffresConnus{integer} 34>35 7|66b13 77l8 77t28 85s14
+34r35 G{7R9} 7|66b35 69r19 70r22 71r16
+37V13*EstRemplie{boolean} 37>25 7|83b13 86l8 86t18
+37r25 G{7R9} 7|83b25 85r35 85r40
+40V13*extraireLigne{8|5R9} 41>7 41>27 7|92b13 102l8 102t21
+41r7 G{7R9} 7|93b7 97r30 98r19 99r37
+41i27 L{integer} 7|93b27 99r41
+44V13*extraireColonne{8|5R9} 45>7 45>27 7|108b13 118l8 118t23
+45r7 G{7R9} 7|109b7 113r30 114r19 115r37
+45i27 C{integer} 7|109b27 115r44
+51V13*FixerChiffre{7R9} 52>7 52>27 52>51 7|124b13 136l8 136t20
+52r7 G{7R9} 7|125b7 130r10 133r19
+52r27 C{5|3R9} 7|125b27 130r28 130r47 134r32 134r51
+52i51 V{4|3I9} 7|125b51 134r59
+59V13*ViderCase{7R9} 60>7 60>27 7|142b13 153l8 153t17
+60r7 G{7R9} 7|143b7 147r10 150r19
+60r27 C{5|3R9} 7|143b27 147r28 147r47 151r32 151r51
+63i4 TAILLE_MAX{integer} 65r18 65r35 7|13r19
+64A9 Type_Tableau_Grille(4|3I9)<integer><integer> 67r16
+67a7*G{64A9} 7|18m15 42r12 59r16 71r18 99r39 115r39 130r12 134m16 147r12
+. 151m16
+68i7*Taille{integer} 7|21m9 31r16 69r21 70r24 85r42 97r32 98r21 113r32 114r21
+X 7 grille.adb
+11r7 G{6|7R9} 18m13 21m7 22r14
+16i11 i{integer} 18r17
+17i14 j{integer} 18r20
+67i7 cpt{integer} 72m16 72r23 76r14
+69i11 i{integer} 71r20
+70i14 j{integer} 71r22
+95r7 R{8|5R9} 97m7 99m10 99r31 101r14
+98i11 i{integer} 99r34 99r44
+111r7 R{8|5R9} 113m7 115m10 115r31 117r14
+114i11 i{integer} 115r34 115r41
+128r7 G_result{6|7R9} 133m7 134m7 135r14
+145r7 G_result{6|7R9} 150m7 151m7 152r14
+X 8 rangee.ads
+3K9*Rangee 6|3w6 3r22 7|2w6 2r18 8|91e11
+5R9*Type_Rangee 6|41r50 45r50 7|93r50 95r11 109r50 111r11 8|89e14
+12V13*ConstruireRangee{5R9} 7|97s12 113s12
+65V13*AjouterChiffre{5R9} 7|99s15 115s15
+

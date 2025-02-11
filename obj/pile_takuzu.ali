@@ -1,0 +1,64 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_EXCEPTIONS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+
+U pile_takuzu%b		pile_takuzu.ads		fc013a92 NE OO PK
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W resolution_takuzu%s	resolution_takuzu.adb	resolution_takuzu.ali
+Z system%s		system.ads		system.ali
+Z system.exception_table%s  s-exctab.adb	s-exctab.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+W tad_pile%s		tad_pile.adb		tad_pile.ali  ED
+
+U pile_takuzu%s		pile_takuzu.ads		2bd49e05 EB EE OO PK
+W resolution_takuzu%s	resolution_takuzu.adb	resolution_takuzu.ali
+Z system%s		system.ads		system.ali
+Z system.exception_table%s  s-exctab.adb	s-exctab.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+W tad_pile%s		tad_pile.adb		tad_pile.ali
+
+D ada.ads		20210520051132 76789da1 ada%s
+D a-except.ads		20210520051128 946f3014 ada.exceptions%s
+D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
+D chiffre.ads		20230104131128 37e88090 chiffre%s
+D coordonnee.ads	20230117073642 002d049f coordonnee%s
+D grille.ads		20230104150552 c9384163 grille%s
+D pile_takuzu.ads	20230117101744 fc013a92 pile_takuzu%s
+D pile_takuzu.ads	20230117101744 fc013a92 pile_takuzu%b
+D rangee.ads		20230117082224 23e494c5 rangee%s
+D resolution_takuzu.ads	20230117153448 981a3b02 resolution_takuzu%s
+D system.ads		20210520051136 2ffa5114 system%s
+D s-exctab.ads		20210520051132 54135002 system.exception_table%s
+D s-parame.ads		20210520051134 4752c4cb system.parameters%s
+D s-stalib.ads		20210520051134 472fbca8 system.standard_library%s
+D s-traent.ads		20210520051134 26a8d361 system.traceback_entries%s
+D tad_pile.ads		20230117092442 4fcf9f95 tad_pile%s
+D tad_pile.adb		20230117092624 77657c00 tad_pile%b
+G a e
+G c s s s [s pile_takuzu 3 1 none]
+G c Z s s [construirepile pile_takuzu 14 13 3_1]
+G c Z s s [estvide pile_takuzu 17 13 3_1]
+G c Z s s [dernier pile_takuzu 22 13 3_1]
+G c Z s s [avantdernier pile_takuzu 27 13 3_1]
+G c Z s s [empiler pile_takuzu 32 13 3_1]
+G c Z s s [depiler pile_takuzu 37 13 3_1]
+G c Z s s [TtableauBIP pile_takuzu 41 4 3_1]
+G c Z s s [type_pileIP pile_takuzu 43 9 3_1]
+G r i none [s pile_takuzu 3 1 none] [tad_pile standard 5 9 none]
+X 8 pile_takuzu.ads
+3K9*Pile_Takuzu[16|5]
+X 10 resolution_takuzu.ads
+6K9*Resolution_Takuzu 8|2w6 2r29 10|57e22
+52R9*TakuzuModifie 8|3r37 10|55e14
+X 16 tad_pile.ads
+5k9*TAD_Pile 8|1w6 3r28 16|48e13
+

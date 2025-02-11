@@ -1,0 +1,22 @@
+[GENERATED OBJECT FILE]
+b__run_tests_coordonnees.o
+[PROJECT FILES]
+C:\Users\arthu\BUT_info\SAE\Takuzu_V3\takuzu.gpr
+20230117082728 4b1b352eed7eaa0f4836f6dd40510825
+[BOUND OBJECT FILES]
+C:\Users\arthu\BUT_info\SAE\Takuzu_V3\obj\coordonnee.o
+C:\Users\arthu\BUT_info\SAE\Takuzu_V3\obj\types_tests.o
+C:\Users\arthu\BUT_info\SAE\Takuzu_V3\obj\a_tester_Coordonnees.o
+C:\Users\arthu\BUT_info\SAE\Takuzu_V3\obj\run_tests_Coordonnees.o
+[GENERATED SOURCE FILES]
+b__run_tests_coordonnees.ads
+b__run_tests_coordonnees.adb
+b__run_tests_coordonnees.ali
+[RESULTING OPTIONS]
+-LC:\Users\arthu\BUT_info\SAE\Takuzu_V3\obj\
+-LC:\Users\arthu\BUT_info\SAE\Takuzu_V3\obj\
+-LC:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000
